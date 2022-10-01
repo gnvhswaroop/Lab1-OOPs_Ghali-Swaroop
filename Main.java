@@ -93,7 +93,7 @@ return this.input+" room not available";
 
 		{
 
-			return "Room nuomber: 101, second floor, air conditioned, singleoccupancy, estimated: Rs. 3000 / day";
+			return "Room nuomber: 101, first floor, air conditioned, singleoccupancy, estimated: Rs. 3000 / day";
 
 		}
 
@@ -101,14 +101,14 @@ return this.input+" room not available";
 
 		{
 
-			return "Room nuomber: 102, second floor, air conditioned, doubleoccupancy, estimated: Rs. 4000 / day";
+			return "Room nuomber: 102, first floor, air conditioned, doubleoccupancy, estimated: Rs. 4000 / day";
 
 		}
 
 		else if (this.AC == false && this.occupancy.equals("Double"))
 
 		{
-			return "Room nuomber: 103, second floor, air conditioned, doubleoccupancy, estimated: Rs. 3000 / day";
+			return "Room nuomber: 103, first floor, air conditioned, doubleoccupancy, estimated: Rs. 3000 / day";
 
 		}
 
